@@ -1,7 +1,5 @@
 {
-  "author": {
-    "name": "Brian Kung"
-  },
+  "author": "Brian Kung",
   "bundleDependencies": [],
   "dependencies": {
     "css": "2.2.x",
@@ -14,6 +12,20 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "name": "jsonresume-theme-onepage-wide",
-  "version": "1.0.1"
+  "name": "@briankung/jsonresume-theme-onepage-wide",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briankung/jsonresume-theme-onepage-wide.git"
+  },
+  "keywords": [
+    "jsonresume",
+    "jsonresume-theme",
+    "jsonresume-theme-onepage",
+    "jsonresume-theme-onepage-wide"
+  ],
+  "bugs": {
+    "url": "https://github.com/briankung/jsonresume-theme-onepage-wide/issues"
+  },
+  "homepage": "https://github.com/briankung/jsonresume-theme-onepage-wide#readme"
 }
