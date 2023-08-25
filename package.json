@@ -1,21 +1,17 @@
 {
-  "name": "jsonresume-theme-onepage",
-  "version": "0.0.3",
-  "description": "Compact, printable theme for JSON Resume",
-  "author": "Ainsley Chong",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ainsleychong/jsonresume-theme-onepage.git"
+  "author": {
+    "name": "Brian Kung"
   },
-  "license": "MIT",
+  "bundleDependencies": false,
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "css": "2.2.x"
+    "css": "2.2.x",
+    "handlebars": "^2.0.0-alpha.4"
   },
-  "bugs": {
-    "url": "https://github.com/ainsleychong/jsonresume-theme-onepage/issues"
-  },
-  "homepage": "https://github.com/ainsleychong/jsonresume-theme-onepage",
+  "deprecated": false,
+  "description": "A onepage variant with less margin on the left hand side. Can also be seen as a joeytall variant with some modifications, since joeytall is based on onepage.",
+  "devDependencies": {},
+  "license": "MIT",
   "main": "index.js",
-  "devDependencies": {}
+  "name": "jsonresume-theme-onepage-wide",
+  "version": "1.0.1"
 }

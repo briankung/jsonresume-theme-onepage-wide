@@ -1,19 +1,13 @@
-# jsonresume-theme-onepage
+# jsonresume-theme-onepage-wide
 
-A compact theme for JSON Resume, designed for printing. 
-
-Tries to fit as much information as possible onto a single page without making sections look cluttered.
-
-## Example
-
-http://themes.jsonresume.org/theme/onepage
+A onepage variant with less margin on the left hand side. Can also be seen as a joeytall variant with some modifications, since joeytall is based on onepage. Based on the [onepage](https://github.com/ainsleyc/jsonresume-theme-onepage) theme, with modifications carried over from [joeytall's theme](https://www.npmjs.com/package/jsonresume-theme-joeytall).
 
 ## Running
 
 ```
 sudo npm install -g resume-cli
-git clone https://github.com/ainsleyc/jsonresume-theme-onepage.git
-cd jsonresume-theme-onepage
+git clone https://github.com/briankung/jsonresume-theme-onepage-wide.git
+cd jsonresume-theme-onepage-wide
 resume serve
 ```
 You can print directly from the served html.
