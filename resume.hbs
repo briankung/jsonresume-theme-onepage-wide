@@ -316,20 +316,16 @@
           <div class="sectionContent">
             {{#each resume.interests}}
               <div class="interest">
-                <span
-                  class="name"
-                >{{name}}</span><!--
-      {{#if keywords.length}}
-      --><span class='keywords'> <em>
-      {{#each keywords}}
-        {{this}}<!--
-        -->{{#unless @last}}, {{/unless}}
-      {{/each}}
-      </em></span><!--
-      {{/if}}
-      -->{{#unless
-                  @last
-                }}<span> </span>{{/unless}}
+                <span class="name">{{name}}</span>
+                {{#if keywords.length}}
+                  <span class="keywords">
+                    <em>
+                      {{#each keywords}}
+                        {{this}}{{#unless @last}}, {{/unless}}
+                      {{/each}}
+                    </em></span>
+                {{/if}}
+                {{#unless @last}}<span> </span>{{/unless}}
               </div>
             {{/each}}
           </div>
