@@ -23,6 +23,7 @@ li {
 
 a {
   text-decoration: none;
+  color: rgb(0, 96, 128);
 }
 
 #resume {
@@ -179,9 +180,5 @@ a {
     background: #fff;
     box-shadow: none;
     -webkit-box-shadow: none;
-  }
-
-  a {
-    color: rgb(0, 96, 128);
   }
 }
