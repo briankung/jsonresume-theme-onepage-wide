@@ -51,7 +51,9 @@
                 {{#if url}}
                   <span class="divider">|</span>
                   <span>
-                    <a href="{{url}}">{{url}}</a>
+                    <a href="{{url}}">{{#if linkText}} {{linkText}} {{else}}
+                        {{url}}
+                      {{/if}}</a>
                   </span>
                 {{/if}}
               {{/each}}
