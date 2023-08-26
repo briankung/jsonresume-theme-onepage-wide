@@ -46,18 +46,17 @@
                   {{region}}{{/if}}{{#if countryCode}}, {{countryCode}}{{/if}}
               </span>
             {{/location}}
-          </div>
-          {{#if profiles.length}}
-            <div id="profilesBlock">
+            {{#if profiles.length}}
               {{#each profiles}}
                 {{#if url}}
-                  <span class="url">
-                    <a class="fa fa-{{icon}}" href="{{url}}"></a>
+                  <span class="divider">|</span>
+                  <span>
+                    <a href="{{url}}">{{url}}</a>
                   </span>
                 {{/if}}
               {{/each}}
-            </div>
-          {{/if}}
+            {{/if}}
+          </div>
         </div>
         <div class="sectionLine"></div>
       {{/resume.basics}}
