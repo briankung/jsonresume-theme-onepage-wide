@@ -93,7 +93,9 @@
                 {{#if highlights.length}}
                   <ul class="highlights">
                     {{#each highlights}}
-                      <li>{{{this}}}</li>
+                      {{#if this.length}}
+                        <li>{{{this}}}</li>
+                      {{/if}}
                     {{/each}}
                   </ul>
                 {{/if}}
