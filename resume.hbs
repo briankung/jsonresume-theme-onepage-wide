@@ -154,12 +154,13 @@
       {{/if}}
 
       {{#if resume.skills.length}}
-        <div id="skills" class="sectionBlock">
-          <div class="sectionContent full">
-            {{#each resume.skills}}
+        {{#each resume.skills}}
+          <div id="skills" class="sectionBlock">
+            <div class="sectionName">
+              <span>{{name}}</span>
+            </div>
+            <div class="sectionContent">
               <div class="skillBlock">
-                <span class="title">{{#if name}}{{name}}{{/if}}{{#if level}}
-                    <em>({{level}})</em>{{/if}}:</span>
                 <div class="skill-details">
                   {{#if keywords.length}}
                     {{#each keywords}}
@@ -175,9 +176,9 @@
                   {{/each}}
                 {{/if}}
               </div>
-            {{/each}}
+            </div>
           </div>
-        </div>
+        {{/each}}
         <div class="sectionLine"></div>
       {{/if}}
 

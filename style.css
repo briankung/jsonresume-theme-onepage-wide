@@ -74,6 +74,7 @@ a {
   width: 18%;
   vertical-align: top;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .sectionContent {
@@ -105,8 +106,7 @@ a {
   width: 100%;
 }
 
-.keywords,
-.skill-details {
+.keywords {
   float: right;
 }
 
