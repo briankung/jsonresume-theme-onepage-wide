@@ -58,6 +58,10 @@ function render(resume) {
 	});
 }
 
+Handlebars.registerHelper('kebabify', function(str) {
+    return str.replace(/[\s+]/g, '-').toLowerCase();
+});
+
 module.exports = {
 	render: render
 };
