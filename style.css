@@ -1,6 +1,9 @@
 body {
-  background: #EEEEEE;
-  font: 14px "Arial", Times, sans-serif;
+  background: #eeeeee;
+  font:
+    14px "Arial",
+    Times,
+    sans-serif;
   line-height: 1.4;
   margin: 40px 0;
 }
@@ -94,6 +97,14 @@ a {
   font-weight: bold;
 }
 
+.description {
+  font-style: italic;
+}
+
+.description::before {
+  content: "↳";
+}
+
 .sectionContent .date {
   float: right;
 }
@@ -113,7 +124,7 @@ a {
 .sectionLine {
   border-style: dashed;
   border-width: 1px;
-  border-color: #CFCFCF;
+  border-color: #cfcfcf;
   margin-top: 10px;
   margin-bottom: 10px;
 }

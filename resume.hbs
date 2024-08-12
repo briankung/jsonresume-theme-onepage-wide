@@ -91,6 +91,11 @@
                     </span>
                   {{/if}}
                 </div>
+                {{#if description}}
+                  <div class="description">
+                    {{description}}
+                  </div>
+                {{/if}}
                 {{#if highlights.length}}
                   <ul class="highlights">
                     {{#each highlights}}
