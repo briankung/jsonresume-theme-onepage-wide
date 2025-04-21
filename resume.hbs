@@ -81,7 +81,12 @@
                     <span class="position">{{position}} @ </span>
                     {{#if website.length}}
                       <a class="title" href="{{website}}"> {{company}} </a>
-                    {{else}} {{company}} {{/if}}
+                    {{else}}
+                      {{company}}
+                    {{/if}}
+                    {{#if companyDescription.length }}
+                    — {{companyDescription}}
+                    {{/if}}
                   </div>
                   {{#if startDate}}
                     <span class="date">
